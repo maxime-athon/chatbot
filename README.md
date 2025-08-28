@@ -30,9 +30,6 @@ Ce projet est un assistant vocal interactif pour la gestion scolaire, permettant
 - Modifiez le tableau `parents` dans [`script.js`](script.js) pour ajouter ou changer des parents/élèves.
 - Changez le numéro de téléphone simulé (`numeroAppelant`) pour tester différents cas.
 
-## Auteurs
-
-- Projet réalisé par [Votre Nom].
 
 ## Licence
 
