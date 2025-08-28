@@ -1,0 +1,63 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(135deg, #6a11cb, #2575fc);
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: #fff;
+}
+
+.container {
+    text-align: center;
+    background: rgba(255, 255, 255, 0.1);
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+    width: 400px;
+    backdrop-filter: blur(10px);
+}
+
+h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #fff;
+}
+
+#chatbox {
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    border-radius: 10px;
+    padding: 10px;
+    height: 200px;
+    overflow-y: auto;
+    margin-bottom: 20px;
+    background: rgba(255, 255, 255, 0.2);
+    color: #fff;
+}
+
+#messages {
+    font-size: 14px;
+    color: #fff;
+}
+
+button {
+    background-color: #ff6f61;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #ff3b2f;
+}
+
+p {
+    margin-top: 1rem;
+    font-weight: bold;
+}
